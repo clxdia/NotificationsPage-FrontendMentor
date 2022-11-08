@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+.unread {
+  background-color: #e5effa;
+  border-radius: 5px;
+}
+
+.links:hover {
+  color: rgb(14, 14, 126);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.msg:hover {
+  background-color: #dde7ee;
+  border-color: #dde7ee;
+  cursor: pointer;
+  transition: 200ms;
+}
